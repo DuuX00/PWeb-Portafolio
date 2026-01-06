@@ -2,65 +2,73 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Portafolio | Desarrollador de Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portafolio | Eduardo Montoya </title>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
+    <header class="hero">     
+        <h1>EDUARDO MONTOYA</h1>
+        <h2>Desarrollador de Software Junior </h2>
+        <p> Java | Python | HTML | CSS | SQL </p>
+        <div>
+            <a href="#proyectos" class="btn"> Ver Proyectos </a>
+            <a href="#contacto" class="btn"> Contactame</a>
+        </div>
+    </header>
+        <main> 
+            <section class="about">
+                <h3>SOBRE MI:</h3>
+                <article>
+                <p> Desarrollador de Software Junior con conocimientos en Java, 
+                    Python y desarrollo web utilizando HTML y CSS. Experiencia 
+                    en la creación de sistemas de gestión, manejo de bases de datos
+                    SQL y desarrollo de lógica de negocio orientada a la resolución 
+                    de problemas reales. Interesado en seguir creciendo 
+                    profesionalmente
+                    como desarrollador, participando en proyectos donde pueda aportar 
+                    soluciones funcionales y seguir aprendiendo buenas prácticas de 
+                    desarrollo de software.</p>
+                </article>
+            </section>
 
-<header class="hero">
-    <h1>Eduardo Montoya</h1>
-    <h2>Desarrollador de Software Junior</h2>
-    <p>Java | Python | HTML | CSS | SQL</p>
+            <section id="proyectos" class="projects"> 
+            <div class="project-card">
+                <h3> HARDTECK</h3>
+                <article> 
+                    <h4> Pagina Web Comercial </h4>
+                    <p> Pagina de de equipo tecnologico creado con Html, Css y Js </p>
+                    <span> HTML | CSS | JS </span>
+                    <img src="img/img-HARDTEK.png" alt="XD">
+                </article>
+                
+            </div>
 
-    <div class="buttons">
-        <a href="#proyectos">Ver Proyectos</a>
-        <a href="https://github.com/TU_USUARIO" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/TU_PERFIL" target="_blank">LinkedIn</a>
+            <div class="project-card">
+                <h3> PROYECTO 2</h3>
+                <article> 
+                    <h4> Sistema Web de Ventas </h4>
+                    <p> Sistema web para gestión de ventas y atención al cliente. </p>
+                    <span> HTML | CSS | SQL </span>
+                </article>
+            </div>
+
+            <div class="project-card">
+                <h3> PROYECTO 3</h3>
+                <article> 
+                    <h4> Automatización con Python </h4>
+                    <p> Scripts para automatización y procesamiento de datos. </p>
+                    <span> Python </span>
+                </article>
+            </div>
+            </section>
+        </main>
+    <footer id="contacto">
+    <div>
+        <p>© 2026 - Eduardo Montoya</p>
     </div>
-</header>
 
-<section class="about">
-    <h3>Sobre mí</h3>
-    <p>
-        Desarrollador de Software Junior con conocimientos en Java, Python y desarrollo web utilizando HTML y CSS.
-        Experiencia en la creación de sistemas de gestión, manejo de bases de datos SQL y desarrollo de lógica de negocio 
-        orientada a la resolución de problemas reales.
-
-        Interesado en seguir creciendo profesionalmente como desarrollador, participando en proyectos donde pueda aportar 
-        soluciones funcionales y seguir aprendiendo buenas prácticas de desarrollo de software.
-    </p>
-</section>
-
-<section id="proyectos" class="projects">
-    <h3>Proyectos</h3>
-
-    <div class="project-card">
-        <h4>Sistema de Inventario</h4>
-        <p>Aplicación desarrollada en Java para la gestión de productos y control de stock.</p>
-        <span>Java | SQL</span>
-        <a href="#">Ver código</a>
-    </div>
-
-    <div class="project-card">
-        <h4>Sistema Web de Ventas</h4>
-        <p>Sistema web para gestión de ventas y atención al cliente.</p>
-        <span>HTML | CSS | SQL</span>
-        <a href="#">Ver código</a>
-    </div>
-
-    <div class="project-card">
-        <h4>Automatización con Python</h4>
-        <p>Scripts para automatización y procesamiento de datos.</p>
-        <span>Python</span>
-        <a href="#">Ver código</a>
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 - Eduardo Montoya</p>
-</footer>
-
-<script src="js/main.js"></script>
+    </footer>
 </body>
 </html>
-
